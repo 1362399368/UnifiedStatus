@@ -1,18 +1,41 @@
-# 三合一状态栏 · UnifiedStatus
+# mac duo 状态栏
 
 <p align="center">
   <img src="docs/app-icon-256.png" width="128" alt="三合一状态栏图标">
 </p>
 
 <p align="center">
-  把输入法、Wi‑Fi 与电池状态整合进一个 macOS 菜单栏图标。
+  <strong>把三个状态，收进一个图标。</strong>
+</p>
+
+<p align="center">
+  模仿 mac duo 的一体化交互思路，将输入法、Wi‑Fi 与电池状态巧妙融合，<br>
+  收纳拥挤的 macOS 状态栏，让桌面重新变得清爽、克制而高效。
 </p>
 
 ![macOS 13+](https://img.shields.io/badge/macOS-13%2B-black)
 ![Universal 2](https://img.shields.io/badge/Universal%202-Apple%20Silicon%20%2B%20Intel-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-## 功能
+## 从拥挤到清爽
+
+Wi‑Fi、电池、输入法不必再各占一个位置。mac duo 状态栏用一枚会随状态实时变化的图标，替代三枚系统图标：一个位置，三种状态，一次点击全部看清。
+
+![mac duo 状态栏使用前后对比：使用前图标拥挤，使用后三合一更加简洁](docs/mac-duo-before-after.png)
+
+**使用前：** Wi‑Fi、电池与输入法各自占位，菜单栏越用越挤。
+
+**使用后：** 三种状态融合成一枚 mac duo 图标，重要信息还在，空间却回来了。
+
+## 为什么选择 mac duo 状态栏
+
+- **三合一，真正省空间：** 输入法、Wi‑Fi、电池状态集中显示，告别图标排队。
+- **一眼就懂：** 圆点代表 Wi‑Fi 信号，圆环代表剩余电量，中央字符跟随输入法变化。
+- **细节会说话：** 充电闪电、低电量红色、VPN 绿色提示，都能在图标上即时反馈。
+- **点击看全貌：** 一枚图标背后，输入法、网络、VPN、电量、充电时间与实时功率一目了然。
+- **安静地融入 macOS：** 原生交互、自动启动、离开后自动收起，不打断你的工作流。
+
+## 核心功能
 
 - 一个图标同时显示输入法、Wi‑Fi 信号和电池余量。
 - 两格 Wi‑Fi 时右侧圆点为空心；电量减少时圆环从右侧留空。
