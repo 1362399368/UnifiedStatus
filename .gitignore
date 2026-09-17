@@ -1,0 +1,13 @@
+.DS_Store
+build/
+DerivedData/
+*.app
+*.zip
+.swiftpm/
+
+# Local diagnostic helpers; they are not part of the application target.
+InputCurrent.swift
+InputSwitcher.swift
+
+# Keep only the small README icon in version control.
+docs/app-icon.png
